@@ -1,0 +1,51 @@
+/* common shared styles*/
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+    ;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 64px;
+}
+
+/* navigation bar design */
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav li a {
+    text-decoration: none;
+    text-decoration-color: #474747;
+    font-size: 17x;
+    
+}
+
+.nav-title {
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+.hire-btn {
+    color: white;
+    font-weight: 700;
+}
