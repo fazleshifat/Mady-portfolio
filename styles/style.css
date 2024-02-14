@@ -20,10 +20,13 @@
 
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
@@ -47,5 +50,6 @@ nav li a {
 
 .hire-btn {
     color: white;
+    font-size: 18px;
     font-weight: 700;
 }
