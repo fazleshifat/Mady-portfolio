@@ -5,15 +5,16 @@
 
 .text-primary {
     color: #FD6E0A;
-    ;
+
 }
 
 .btn-primary {
     background-color: #FD6E0A;
     border: none;
     border-radius: 5px;
-    width: 150px;
-    height: 64px;
+    padding: 18px 35px;
+    color: white;
+    font-weight: 600;
 }
 
 /* navigation bar design */
@@ -22,6 +23,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 
 nav ul {
@@ -37,8 +39,8 @@ nav li {
 nav li a {
     text-decoration: none;
     text-decoration-color: #474747;
-    font-size: 17x;
-    
+    font-size: 15px;
+
 }
 
 .nav-title {
@@ -48,8 +50,24 @@ nav li a {
 
 }
 
-.hire-btn {
-    color: white;
-    font-size: 18px;
-    font-weight: 700;
+
+/* header section design */
+
+.header {
+    background-color: #FFF8F3;
+}
+
+/* banner section design */
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.hardy {
+    width: 500px;
+    height: 600px;
+    position:relative;
 }
