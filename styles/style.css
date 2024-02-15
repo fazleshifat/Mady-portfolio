@@ -204,3 +204,39 @@ nav li a {
     text-align: center;
     margin: 80px 0;
 }
+
+/* footer related styles */
+ footer{
+    display: flex;
+    gap:100px;
+    padding: 130px 200px;
+    margin-top: 100px;
+    background-color: #FFF8F3;
+ }
+
+ .footer-column{
+    width: 50%;
+ }
+
+ .footer-description{
+    text-align: left;
+    font-size: 12px;
+ }
+
+ .footer-column img{
+    width: 20px;
+    padding-right:2px;
+ }
+
+ .contact input,textarea{
+    width: 400px;
+    display: block;
+    margin-bottom: 20px;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 5px;
+ }
+
+ .btn-submit{
+    width: 150px;
+ }
